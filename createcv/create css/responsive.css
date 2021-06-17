@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+ 
+    .header {
+       height: 75px;
+ 
+    }
+    .logo{
+       padding:10px;
+    }
+ 
+ 
+    .nav-menu {
+       flex-direction: column;
+       background: #232a34;
+       position: fixed;
+       top: 75px;
+       width: 100%;
+       align-items: center;
+       padding: 0;
+       height: calc(100%-60px);
+       overflow-y: auto;
+       left: 100%;
+       transition: all .4s;
+       height: 100%;
+       margin: 0;
+ 
+    }
+ 
+    .nav-menu-item {
+ 
+       margin: 20px;
+ 
+ 
+    }
+ 
+    .toogle-init {
+       display: block;
+       padding: .5em;
+    }
+ 
+    .nav-phone-visible {
+       left: 0;
+    }
+}
