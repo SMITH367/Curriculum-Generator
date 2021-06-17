@@ -1,0 +1,31 @@
+
+
+.main{
+    grid-template-columns: 1fr;
+   
+}
+.templates-show{
+
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.templates-show div{
+    text-align: center;
+    height:400px;
+    border: solid 1px;
+    
+
+}
+.templates-show div a{
+
+    display:block;
+
+}
+.template-img{
+
+    width: 80%;
+    height:80%;
+    margin:auto;
+    padding:auto;
+}
