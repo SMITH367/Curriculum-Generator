@@ -97,6 +97,7 @@ div section {
 }
 
 .title {
+    
     margin-top: 90px;
 
 }
@@ -130,16 +131,17 @@ div section {
 .about div {
     max-width: 100%;
 }
-.red{
-    border:solid red;
-}
-.blue{
-    border:solid blue;
-}
 
 .about div p {
     max-width: 100%;
 
+}
+.name div h1{
+    display:inline;
+
+}
+.ocupation{
+    margin-top:3em;
 }
 
 .footer {

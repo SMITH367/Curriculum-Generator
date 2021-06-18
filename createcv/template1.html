@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./create css/styles.css">
   <link rel="stylesheet" href="./create css/responsive.css">
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+  <script src="./create js/downloadCv.js"></script>
   <title>Document</title>
 </head>
 
@@ -18,105 +20,134 @@
         <div>
           <a class="logo" href=""> CVMAKER </a>
         </div>
-  
+
         <button class="toogle-init">
           &#9776;
         </button>
-  
+
         <ul class="nav-menu">
-  
+
           <li class="nav-menu-item">
             <a href="../index.html">Inicio</a>
           </li>
-  
+
           <li class="nav-menu-item">
             <a href="">Sobre nosotros</a>
           </li>
-  
+
           <li class="nav-menu-item">
             <a href="">Contacto</a>
           </li>
         </ul>
-  
+
       </nav>
-  
+
     </header>
     .
-  
-  <div class="cont-cv">
-    <h1 class="title center">CREA TU CV</h1>
-    <section class="main">
-  
-  
-      
-      <article class="data">
-        <h2 class="center">Datos personales</h2>
-       
-        
-    
-      <form class="data-inputs">
-        <input type="text" id="name" placeholder="name">
-        <input type="text" id="lastName" placeholder="lastName">
-        <input type="text" id="ocupation" placeholder="ocupation">
-        <input type="number" id="phone" placeholder="phone">
-        <input type="text" id="email" placeholder="email">
-        <input type="text" id="link" placeholder="link">
-        <input type="text" id="languages" placeholder="languages">
-        <input type="text" id="skill" placeholder="skills"> <button> Add Skill</button>
-      </form>
 
-    </article>
+    <div class="cont-cv">
+      <h1 class="title center">CREA TU CV</h1>
+      <section class="main">
 
-    <div class="final-cv">
-      <article class="preview"> 
 
-        <div class="about">
-          <div class="name"></div>
-          <div class="ocupation"></div>
-          <div class="phone"></div>
-          <div clas="email"></div>
-          <div clas="link"></div>
-          <div clas="languages"></div>
-          <div class="skill"></div>
+
+        <article class="data">
+          <h2 class="center">Datos personales</h2>
+
+
+
+          <form class="data-inputs">
+            <input type="text" id="name" placeholder="name">
+            <input type="text" id="lastName" placeholder="lastName">
+            <input type="text" id="ocupation" placeholder="ocupation">
+            <input type="number" id="phone" placeholder="phone">
+            <input type="text" id="email" placeholder="email">
+            <input type="text" id="link" placeholder="link">
+            <br>
+            <!-- <input type="text" id="languages" placeholder="languages"> -->
+
+            <select id="languages">
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Italian">Italian</option>
+              <option value="Mandarin">Mandarin</option>
+              <option value="Portugese">Portugese</option>
+
+            </select>
+            <button id="addLanguage"> Add language</button>
+            <br>
+
+            <input type="text" id="skill" placeholder="skills"> <button id="addSkill"> Add Skill</button>
+
+
+
+          </form>
+
+        </article>
+
+        <div class="final-cv">
+          <article class="preview">
+
+            <div class="about">
+              <div class="name center">
+                <div class="first"></div>
+                <div class="last"></div>
+              </div>
+              <div class="ocupation"></div>
+              <h4>Contacto</h4>
+              <div class="phone"> Tel: </div>
+              <div class="email">Email: </div>
+              <div class="link">Links: </div>
+              <div class="languages">
+                <h4>languages</h4>
+              </div>
+              <div class="skill">
+                <h4>Skills</h4>
+              </div>
+            </div>
+
+            <div class="proffesional">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione inventore ipsam enim in animi, dicta
+              recusandae. Dolor quisquam asperiores doloremque nostrum praesentium fugiat! Vel, odio aut? Saepe,
+              architecto nulla! Voluptatibus!
+              lore
+              lorem
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero velit delectus enim ducimus ab expedita
+              facere! Voluptatum repellendus quibusdam culpa magnam. Iure eligendi odit tempora maiores dolore,
+              accusamus molestiae cum!
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, at natus laudantium aut illum excepturi,
+              eaque odit voluptate deleniti labore omnis sint? Culpa quidem in earum ipsum mollitia nemo quaerat.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, fugiat. Rerum eaque culpa quia ipsa
+              repellat deleniti alias natus fugiat magnam, mollitia id sit ex quisquam nulla voluptatem delectus harum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sed consequatur. Rerum, nisi quis.
+              Voluptates animi in quo ipsa, alias excepturi tempora! Odio voluptatibus quas repellendus cupiditate
+              aspernatur, unde aliquid.
+
+
+
+            </div>
+
+          </article>
+
         </div>
 
-        <div class="proffesional">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nostrum veritatis minima commodi beatae ipsam, iste recusandae laboriosam officiis sed ea illo, tempore ipsa. Officia maiores deserunt quibusdam optio ex!
-          lorme
-          lore
-          lore
-          lorem
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Lorem
-          lorem
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consequuntur sit recusandae voluptatibus corporis quo expedita nisi tempora similique quod necessitatibus maiores labore itaque rerum in ab nemo ut cupiditate!
-          lore
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ad velit, numquam ut enim cum officiis neque corporis. Aspernatur distinctio earum labore aperiam? Assumenda minima totam perspiciatis earum dolorum repellat!
-          lore
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perferendis iure nemo eos repellat at pariatur aliquid ullam eius veniam, doloribus distinctio obcaecati suscipit sed a placeat similique cupiditate! Aspernatur.
-          Lorem
-          
-        </div>
+      </section>
 
-      </article>
 
     </div>
-    
-  </section>
-
-
-  </div>
-    
+    <div>
+      <button id="download-cv">DESCARGAR CV</button>
+    </div>
 
     <footer class="footer"> lorme
 
     </footer>
 
   </div>
-  
 
 
-  
+
+
 
 
 
