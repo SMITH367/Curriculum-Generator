@@ -49,12 +49,9 @@
       <h1 class="title center">CREA TU CV</h1>
       <section class="main">
 
-
-
         <article class="data">
+
           <h2 class="center">Datos personales</h2>
-
-
 
           <form class="data-inputs">
             <input type="text" id="name" placeholder="name">
@@ -76,13 +73,11 @@
             </select>
             <button id="addLanguage"> Add language</button>
             <br>
-
             <input type="text" id="skill" placeholder="skills"> <button id="addSkill"> Add Skill</button>
-
             <br>
-
-            <textarea id="profile" cols="30" rows="10" placeholder="Informacion sobre ti"></textarea>
-            <textarea id="profile" cols="30" rows="10" placeholder="Experiencia Laboral"></textarea>
+            <textarea id="profile" cols="20" rows="10" placeholder="Informacion sobre ti"></textarea>
+            <textarea id="experience" cols="20" rows="10" placeholder="Experiencia Laboral"></textarea>
+            <textarea id="education" cols="20" rows="10" placeholder="Educacion"></textarea>
 
           </form>
 
@@ -90,7 +85,6 @@
 
         <div class="final-cv" id="final-cv">
           <article class="preview">
-
             <div class="about">
               <div class="name center">
                 <div class="first"></div>
@@ -98,9 +92,9 @@
               </div>
               <div class="ocupation"></div>
               <h4>Contacto</h4>
-              <div class="phone"> Tel: </div>
-              <div class="email">Email: </div>
-              <div class="link">Links: </div>
+              <div class="phone"></div>
+              <div class="email"></div>
+              <div class="link"></div>
               <div class="languages">
                 <h4>languages</h4>
               </div>
@@ -110,11 +104,20 @@
             </div>
 
             <div class="proffesional">
-              
-              <div class="profile center">
-                <h3>Sobre ti</h3>
+
+              <div class="profile">
+
               </div>
-           
+
+              <div class="experience">
+
+              </div>
+
+
+              <div class="education">
+                
+              </div>
+
             </div>
 
           </article>
@@ -123,8 +126,8 @@
 
       </section>
 
-
     </div>
+
     <div>
       <button onclick="createpdf();"> Dowload </button>
     </div>
@@ -134,12 +137,6 @@
     </footer>
 
   </div>
-
-
-
-
-
-
 
   <script src="./create js/header.js"></script>
   <script src="./create js/drawAbout.js"></script>
