@@ -149,6 +149,10 @@ div section {
     margin-top: 2em;
 }
 
+textarea{
+    resize: none;
+}
+
 .center {
     text-align: center;
 }
