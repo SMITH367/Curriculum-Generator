@@ -31,9 +31,11 @@
 .proffesional div p{
 
     height: 100%;
-    width:100%;
+    width:95%;
     max-width:100%;
     padding:1em;
+    word-wrap: break-word;
+    padding-right:100px;
 }
 .final-cv{
     width: 100%;

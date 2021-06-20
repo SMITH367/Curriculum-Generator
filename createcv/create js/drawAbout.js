@@ -59,8 +59,8 @@ phone.addEventListener("input", () => {
 email.addEventListener("input", () => {
     let contEmail = document.querySelector(".email")
     let value = email.value
-    if (value.length < 25 && value.length > 3) {
-        contEmail.innerHTML = ` <p> ${value} <p> `
+    if (value.length < 27 && value.length > 3) {
+        contEmail.innerHTML = ` <p style="word-wrap: break-word;"> ${value} <p> `
     }
 })
 
