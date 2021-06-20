@@ -45,17 +45,14 @@
        width: 100%;
     }
     .main{
-      display:block;
+       display:flex;
+       flex-wrap: wrap;
       width: 98%;
       text-align: center;
     }
     .data{
       width: 100%;
       
-    }
-    .final-cv{
-       padding:0;
-       
     }
     .preview{
       width: 90%;
