@@ -9,21 +9,17 @@
 
 .preview {
     display: grid;
-    grid-template-columns: .6fr 2fr;
+    grid-template-columns: 22% 75%;
 }
 
 .about {
     height: 100%;
-    width:100%;
-    max-width:100%;
-
-    border: solid;
+    
+    
 }
 
 .about div {
- 
     max-width: 100%;
-    min-width: 1fr;
 }
 
 .about div p {
@@ -39,7 +35,12 @@
     max-width:100%;
     padding:1em;
 }
-
+.final-cv{
+    width: 100%;
+}
+.finalcv div{
+    width: 100%;
+}
 .center {
     text-align: center;
 }

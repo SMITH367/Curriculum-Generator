@@ -1,7 +1,11 @@
-function createpdf () {
+const downloadCv = document.querySelector(".downloadCv")
+console.log(downloadCv)
 
-    const z = document.getElementById("final-cv");
+downloadCv.addEventListener("click",(e)=>{
+    e.preventDefault()
+    const finalcv = document.getElementById("final-cv");
      html2pdf()
-     .from(z)
+     .from(finalcv)
      .save();
- }
+
+})

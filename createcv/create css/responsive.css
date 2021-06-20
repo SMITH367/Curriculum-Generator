@@ -45,8 +45,8 @@
        width: 100%;
     }
     .main{
-       display:flex;
-       flex-wrap: wrap;
+      display:flex;
+      flex-wrap: wrap;
       width: 98%;
       text-align: center;
     }
