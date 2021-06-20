@@ -1,5 +1,4 @@
-const downloadCv = document.querySelector(".downloadCv")
-console.log(downloadCv)
+const downloadCv = document.querySelector(".downloadCv");
 
 downloadCv.addEventListener("click",(e)=>{
     e.preventDefault()
