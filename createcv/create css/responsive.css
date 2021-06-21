@@ -44,6 +44,9 @@
     .cont-cv{
        width: 100%;
     }
+    .final-cv {
+      font-size: 10px;
+    }
     .main{
       display:flex;
       flex-wrap: wrap;
@@ -56,6 +59,8 @@
     }
     .preview{
       width: 97%;
+      
     }
+    
     
 }
