@@ -18,21 +18,12 @@ nameof.addEventListener("input", () => {
     let value = nameof.value
 
     if (value.length < 17 && value.length > 3) {
-        contName.innerHTML = ` <h4> ${value} <h4> `
+        contName.innerHTML = ` <h4> 
+        <i class="fa fa-user" aria-hidden="true"></i> ${value} <h4> `
     }
 
 })
 
-lastName.addEventListener("input", () => {
-
-    let contLast = document.querySelector(".last")
-    let value = lastName.value
-
-    if (value.length < 17 && value.length > 3) {
-        contLast.innerHTML = `<h4> ${value} </h4> `
-    }
-
-})
 
 
 ocupation.addEventListener("input", () => {
@@ -41,7 +32,8 @@ ocupation.addEventListener("input", () => {
     let value = ocupation.value
 
     if (value.length < 25 && value.length > 3) {
-        contOcupation.innerHTML = ` <p> ${value} <p> `
+        contOcupation.innerHTML = ` <p> 
+        <i class="fas fa-toolbox"></i> ${value} <p> `
     }
 
 })
@@ -52,7 +44,7 @@ phone.addEventListener("input", () => {
     let contPhone = document.querySelector(".phone")
     let value = phone.value
     if (value.length < 12 && value.length > 3) {
-        contPhone.innerHTML = ` <p> ${value} <p> `
+        contPhone.innerHTML = ` <p> <i class="fas fa-mobile-alt   "></i> ${value} <p> `
     }
 
 })
@@ -60,7 +52,8 @@ email.addEventListener("input", () => {
     let contEmail = document.querySelector(".email")
     let value = email.value
     if (value.length < 32 && value.length > 7) {
-        contEmail.innerHTML = ` <p style="word-wrap: break-word;"> ${value} <p> `
+        contEmail.innerHTML = ` <p> 
+        <i class="fas fa-mail-bulk    "></i> ${value} <p> `
     }
 })
 
@@ -69,14 +62,15 @@ link.addEventListener("input", () => {
     let value = link.value
 
     if (value.length < 25 && value.length > 3) {
-        contLink.innerHTML = ` <p> ${value} <p> `
+        contLink.innerHTML = ` <p> 
+        <i class="fa fa-link" aria-hidden="true"></i> ${value} <p> `
 
     }
 })
 
 
 addLanguage.addEventListener("click", (e) => {
-   
+
     e.preventDefault()
     let contLanguage = document.querySelector(".languages")
     let value = languages.value
@@ -88,7 +82,7 @@ addLanguage.addEventListener("click", (e) => {
 
 
 addSkill.addEventListener("click", (e) => {
-    
+
     e.preventDefault()
     let value = skill.value;
 
@@ -101,8 +95,8 @@ addSkill.addEventListener("click", (e) => {
     }
 })
 
-window.addEventListener("keypress", (e)=>{
-    if (e.keyCode == 13){
+window.addEventListener("keypress", (e) => {
+    if (e.keyCode == 13) {
         e.preventDefault();
     }
 }, false);
