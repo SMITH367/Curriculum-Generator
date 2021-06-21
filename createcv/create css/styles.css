@@ -87,7 +87,6 @@ div .logo {
 }
 
 div section {
-
     height: 100%;
 }
 
@@ -122,19 +121,6 @@ div section {
     height: 100%;
     padding: 10px;
    
-}
-
-.preview {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.name div h1{
-    display:inline;
-
-}
-.ocupation{
-    margin-top:3em;
 }
 
 .footer {
