@@ -1,54 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./create css/styles.css">
-    <link rel="stylesheet" href="./create css/responsive.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./create css/styles.css">
+  <link rel="stylesheet" href="./create css/responsive.css">
+  <link rel="stylesheet" href="./create css/template3.css">
+  <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+  <title>Document</title>
 </head>
+
 <body>
+
+  <div>
     <header class="header">
 
-        <nav class="nav">
-          <div>
-            <a class="logo" href=""> CVMAKER </a>
+      <nav class="nav">
+        <div>
+          <a class="logo" href=""> CVMAKER </a>
+        </div>
+
+        <button class="toogle-init">
+          &#9776;
+        </button>
+
+        <ul class="nav-menu">
+
+          <li class="nav-menu-item">
+            <a href="../index.html">Inicio</a>
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="">Sobre nosotros</a>
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="">Contacto</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </header>
+    .
+
+    <div class="container">
+
+
+      <div class="cont-cv">
+        <h1 class="title center">CREA TU CV</h1>
+        <section class="main">
+          <article class="data">
+            <h2 class="center">Datos personales</h2>
+
+            <form class="data-inputs">
+              <input type="text" id="name" placeholder="name">
+              <input type="text" id="lastName" placeholder="lastName">
+              <input type="text" id="ocupation" placeholder="ocupation">
+              <input type="number" id="phone" placeholder="phone">
+              <input type="text" id="email" placeholder="email">
+              <input type="text" id="link" placeholder="link">
+              <br>
+              <!-- <input type="text" id="languages" placeholder="languages"> -->
+
+              <select id="languages">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Italian">Italian</option>
+                <option value="Mandarin">Mandarin</option>
+                <option value="Portugese">Portugese</option>
+
+              </select>
+              <button id="addLanguage"> Add language</button>
+              <br>
+              <input type="text" id="skill" placeholder="skills"> <button id="addSkill"> Add Skill</button>
+              <br>
+              <textarea id="profile" cols="20" rows="10" placeholder="Informacion sobre ti"></textarea>
+              <textarea id="experience" cols="20" rows="10" placeholder="Experiencia Laboral"></textarea>
+              <textarea id="education" cols="20" rows="10" placeholder="Educacion"></textarea>
+
+            </form>
+
+          </article>
+
+          <div class="final-cv" id="final-cv">
+            <article class="preview">
+              <div class="about">
+                <div class="name center">
+                  <div class="first"></div>
+                  <div class="last"></div>
+                </div>
+                <div class="ocupation"></div>
+                <h4>Contacto</h4>
+                <div class="phone"></div>
+                <div class="email"></div>
+                <div class="link"></div>
+                <div class="languages">
+                  <h4>languages</h4>
+                </div>
+                <div class="skill">
+                  <h4>Skills</h4>
+                </div>
+              </div>
+
+              <div class="proffesional">
+
+                <div class="profile">
+
+                </div>
+
+                <div class="experience">
+
+                </div>
+
+
+                <div class="education">
+
+                </div>
+
+              </div>
+
+            </article>
+
           </div>
-  
-          <button class="toogle-init">
-            &#9776;
-          </button>
-  
-          <ul class="nav-menu">
-  
-            <li class="nav-menu-item">
-              <a href="../index.html">Inicio</a>
-            </li>
-  
-            <li class="nav-menu-item">
-              <a href="">Sobre nosotros</a>
-            </li>
-  
-       
-            
-            <li class="nav-menu-item">
-              <a href="">Contacto</a>
-            </li>
-          </ul>
-  
-        </nav>
-  
-      </header>
-      .
 
-</div>
+        </section>
+
+      </div>
+
+      <div>
+        <button class="downloadCv"> Dowload </button>
+      </div>
+
+      <footer class="footer"> lorme
+
+      </footer>
+
+    </div>
+
+  </div>
 
 
-
-
-
-<script src="./create js/main.js"></script>
+  <script src="./create js/header.js"></script>
+  <script src="./create js/drawAbout.js"></script>
+  <script src="./create js/drawProffesional.js"></script>
+  <script src="./create js/downloadCv.js"></script>
 
 </body>
+
 </html>
