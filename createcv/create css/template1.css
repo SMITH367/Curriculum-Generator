@@ -7,7 +7,8 @@
 
 .preview {
     display: grid;
-    grid-template-columns: 25% 74%;
+    grid-template-columns: 30% 70%;
+    padding-top:1em;
 }
 
 .about {
