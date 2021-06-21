@@ -76,27 +76,33 @@ link.addEventListener("input", () => {
 
 
 addLanguage.addEventListener("click", (e) => {
+   
     e.preventDefault()
     let contLanguage = document.querySelector(".languages")
     let value = languages.value
     let language = document.createElement("P")
-    language.innerHTML = ` <p> ${value} <p> `
+    language.innerHTML = ` <p class="separation"> ${value} <p> `
     contLanguage.appendChild(language)
 
 })
 
 
 addSkill.addEventListener("click", (e) => {
+    
     e.preventDefault()
     let value = skill.value;
 
 
     if (value.length < 20 && value.length > 1) {
         let skilln = document.createElement("P")
-        skilln.innerHTML = `${value}`
+        skilln.innerHTML = ` <p class="separation"> ${value} </p>`
         let contSkill = document.querySelector(".skill")
         contSkill.appendChild(skilln)
-
     }
-
 })
+
+window.addEventListener("keypress", (e)=>{
+    if (e.keyCode == 13){
+        e.preventDefault();
+    }
+}, false);
