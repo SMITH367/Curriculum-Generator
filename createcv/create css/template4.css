@@ -9,13 +9,14 @@
 
 .preview {
     display: grid;
-    grid-template-columns: 22% 75%;
+    grid-template-columns: 25% 75%;
+    padding:15px;
 }
 
 .about {
     height: 100%;
-    
-    
+    word-wrap: break-word;
+       
 }
 
 .about div {
@@ -26,16 +27,21 @@
     max-width: 100%;
 
 }
-
-
+.proffesional{
+    width:95%;
+}
 .proffesional div p{
-
     height: 100%;
     width:95%;
     max-width:100%;
-    padding:1em;
     word-wrap: break-word;
-    padding-right:100px;
+}
+.ocupation{
+    font-size: 1.1em;
+    text-align:start;
+}
+.name{
+    font-size: 1.4em;
 }
 .final-cv{
     width: 100%;
@@ -43,6 +49,11 @@
 .finalcv div{
     width: 100%;
 }
+
 .center {
     text-align: center;
+}
+
+.separation{
+    padding:.5em;
 }
