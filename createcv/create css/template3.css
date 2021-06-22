@@ -55,6 +55,11 @@
 .habilities h4 {
     padding-left: 5%;
 }
+.line{
+    margin: 2px;
+    border: solid 1px;
+    width:95%;
+}
 .separation{
     padding:1em;
 }
