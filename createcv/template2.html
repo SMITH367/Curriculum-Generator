@@ -5,16 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="./create css/styles.css">
   <link rel="stylesheet" href="./create css/responsive.css">
-  <link rel="stylesheet" href="./create css/template2.css">
+  <link rel="stylesheet" href="./create css/template1.css">
   <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
 
   <title>Document</title>
 </head>
 
-<body>
 
+<body>
   <div>
     <header class="header">
 
@@ -58,54 +60,66 @@
 
             <form class="data-inputs">
               <input type="text" id="name" placeholder="name">
-              <input type="text" id="lastName" placeholder="lastName">
               <input type="text" id="ocupation" placeholder="ocupation">
               <input type="number" id="phone" placeholder="phone">
               <input type="text" id="email" placeholder="email">
               <input type="text" id="link" placeholder="link">
               <br>
               <!-- <input type="text" id="languages" placeholder="languages"> -->
+              <h5 class="center">Idiomas</h5>
+              <div class="Cont-data-info center">
+                <select id="languages" class="center margin-1em">
 
-              <select id="languages">
-                <option value="English">English</option>
-                <option value="Spanish">Spanish</option>
-                <option value="Italian">Italian</option>
-                <option value="Mandarin">Mandarin</option>
-                <option value="Portugese">Portugese</option>
+                  <option value="English">English</option>
+                  <option value="Spanish">Spanish</option>
+                  <option value="Italian">Italian</option>
+                  <option value="Mandarin">Mandarin</option>
+                  <option value="Portugese">Portugese</option>
 
-              </select>
-              <button id="addLanguage"> Add language</button>
+                </select>
+
+                <button id="addLanguage" class="center margin-1em"> Add language</button>
+
+              </div>
+              <div class="Cont-data-info center">
+
+                <h5 class="center">Habilidades</h5>
+                <input type="text" id="skill" placeholder="skills" value="•" class="center">
+                <br>
+                <button class="center" id="addSkill"> Add Skill</button>
+              </div>
               <br>
-              <input type="text" id="skill" placeholder="skills"> <button id="addSkill"> Add Skill</button>
-              <br>
-              <textarea id="profile" cols="20" rows="10" placeholder="Informacion sobre ti"></textarea>
-              <textarea id="experience" cols="20" rows="10" placeholder="Experiencia Laboral"></textarea>
-              <textarea id="education" cols="20" rows="10" placeholder="Educacion"></textarea>
+              <div class="Cont-data-info center">
+                <textarea id="profile" cols="15" rows="10" placeholder="Informacion sobre ti"></textarea>
+                <textarea id="experience" cols="15" rows="10" placeholder="Experiencia Laboral"></textarea>
+                <textarea id="education" cols="15" rows="10" placeholder="Educacion"></textarea>
+
+
+              </div>
 
             </form>
 
           </article>
-
           <div class="final-cv" id="final-cv">
             <article class="preview">
               <div class="about">
                 <div class="name center">
                   <div class="first"></div>
-                  <div class="last"></div>
                 </div>
-                <div class="ocupation"></div>
+                <div class="ocupation separation"></div>
                 <h4>Contacto</h4>
-                <div class="phone"></div>
-                <div class="email"></div>
-                <div class="link"></div>
-                <div class="languages">
-                  <h4>languages</h4>
+
+                <div class="phone separation"></div>
+                <div class="email separation"></div>
+                <div class="link separation"></div>
+                <h4>languages</h4>
+                <div class="languages separation">
                 </div>
-                <div class="skill">
-                  <h4>Skills</h4>
+                <h4>Skills</h4>
+                <div class="skill separation">
                 </div>
               </div>
-
+             
               <div class="proffesional">
 
                 <div class="profile">
@@ -122,7 +136,6 @@
                 </div>
 
               </div>
-
             </article>
 
           </div>

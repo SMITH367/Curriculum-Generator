@@ -53,7 +53,7 @@ email.addEventListener("input", () => {
     let value = email.value
     if (value.length < 32 && value.length > 7) {
         contEmail.innerHTML = ` <p> 
-        <i class="fas fa-mail-bulk    "></i> ${value} <p> `
+        <i class="fas fa-mail-bulk "></i> ${value} <p> `
     }
 })
 
