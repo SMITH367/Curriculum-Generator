@@ -139,6 +139,7 @@ div .logo {
 
 .information {
     margin-top: 1em;
+  
     width: 100%;
     background: rgb(228, 228, 228);
     
@@ -169,12 +170,14 @@ div .logo {
     width: 33.3%;
 }
 aside {
+    
     display:inline;
     margin-left:10px;
 }
 
 .curriculum{
     display:grid;
+    padding: 2em;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
   
@@ -200,15 +203,18 @@ aside {
     padding-bottom:10px;
     
 }
-.advices{
-    padding-left:20px;
-}
+
 .call-create h3 {
     padding-bottom: 20px;
 }
-.call-create a{
-    display:block;
+.call-create {
+    display: block;
     text-align: center;
+    margin-bottom:4em;
+}
+.call-create a{
+    display:inline;
+   
 }
 .footer {
     margin-top: 20px;
