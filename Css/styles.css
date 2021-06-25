@@ -88,7 +88,7 @@ div .logo {
 }
 
 .example {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .slider {
@@ -98,7 +98,7 @@ div .logo {
 }
 
 .slider img {
-    width: 80%;
+    width:80%;
     height: 100%;
 }
 
@@ -117,9 +117,12 @@ div .logo {
     padding: 1em;
     margin-bottom: 20px;
     font-size: 1.1em;
-    opacity: .7;
+    color:#000000c2;
 }
-
+.about-us{
+    padding-top:40px;
+    font-size: 20px;
+}
 .btn-createcv{
     margin: 20px;
     padding: 10px;
@@ -128,12 +131,16 @@ div .logo {
     border-radius: 8px ;
     background: rgb(0, 30, 85);
     color: #fff;
+    text-align: center;
+    display:block;
 }
 
 
 
 .information {
+    margin-top: 1em;
     width: 100%;
+    background: rgb(228, 228, 228);
     
 }
 
@@ -161,6 +168,28 @@ div .logo {
 .information-item {
     width: 33.3%;
 }
+aside {
+    display:inline;
+    margin-left:10px;
+}
+
+.curriculum{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  
+}
+
+.img-interview{
+    width:100%;
+    text-align:center;
+}
+.img-interview img{
+    width:80%;
+    height:100%;
+    
+
+}
 .aside-info{
     width:100%;
     text-align:center;
@@ -172,8 +201,7 @@ div .logo {
     
 }
 .advices{
-    list-style: circle;
-    padding:10px;
+    padding-left:20px;
 }
 .call-create h3 {
     padding-bottom: 20px;

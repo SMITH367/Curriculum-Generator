@@ -57,11 +57,18 @@
       font-size:25px;
     }
     .about p{
-       font-size: 1.3em;
+      font-size: 1.3em;
+    }
+    .curriculum{
+       grid-template-columns: 1fr;
+      
+    }
+    .img-interview{
+      display:none;
     }
  
     .img-logo {
-       width: 100%;
+      width: 100%;
  
     }
     .footer-e{
