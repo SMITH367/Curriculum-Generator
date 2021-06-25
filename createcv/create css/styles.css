@@ -172,9 +172,9 @@ div section {
 }
 .footer-cont{
     padding:1em;
-    
     display:flex;
     flex-wrap: wrap;
+    justify-content:space-around;
 }
 .footer i{
     font-size: 2em;

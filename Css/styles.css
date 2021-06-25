@@ -105,11 +105,14 @@ div .logo {
 }
 .about h1{
     font-size: 35px;
-    padding:1em;
+    padding: 10px;
 }
 .about p{
     margin:10px;
+    padding:1em;
     margin-bottom: 20px;
+    font-size: 1.1em;
+    opacity: .7;
 }
 .btn-createcv{
     font-size:1em;
@@ -122,12 +125,6 @@ div .logo {
     color: #fff;
 }
 
-
-
-
-
-
-
 .footer {
     margin-top:20px;
     width:100%;
@@ -138,6 +135,7 @@ div .logo {
     padding:1em;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .footer i{
     font-size: 2em;
@@ -147,7 +145,7 @@ div .logo {
 }
 .footer-e{
     margin: 20px;
-    margin-left: 50px;
+    padding-left: 1em;
 }
 
 .center{
