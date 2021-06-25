@@ -167,7 +167,7 @@ div section {
 
 .footer {
     width:100%;
-    background: rgb(63, 63, 63);
+    background: rgb(0, 30, 85);
     color:#fff;
 }
 .footer-cont{
@@ -202,5 +202,4 @@ textarea {
 }
 .font-normal{
     font-size: 1em;
-
 }

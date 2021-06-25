@@ -1,5 +1,4 @@
 
-
 .main{
     grid-template-columns: 1fr;
    
@@ -28,4 +27,24 @@
     height:80%;
     margin:auto;
     padding:auto;
+}
+.footer {
+    width:100%;
+    background: rgb(0, 30, 85);
+    color:#fff;
+}
+.footer-cont{
+    padding:1em;
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer i{
+    font-size: 2em;
+    color:#fff;
+    text-decoration: none;
+
+}
+.footer-e{
+    margin: 20px;
+    margin-left: 50px;
 }
