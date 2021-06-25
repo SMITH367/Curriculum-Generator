@@ -1,7 +1,7 @@
-*{
-    font-family:cabin,sans-serif;
+* {
+    font-family: cabin, sans-serif;
+    margin: 0;
     padding:0;
-    margin:0; 
 }
 
 
@@ -81,41 +81,46 @@ div .logo {
     cursor: pointer;
 }
 
-.main{
+.main {
     margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.example{
+
+.example {
     margin-top: 2em;
 }
 
-.slider{
+.slider {
     margin: auto;
-    display:flex;
+    display: flex;
     text-align: center;
 }
-.slider img{
+
+.slider img {
     width: 80%;
     height: 100%;
 }
-.about{
-    width:80%;
+
+.about {
+    width: 80%;
 
 }
-.about h1{
+
+.about h1 {
     font-size: 35px;
     padding: 10px;
 }
-.about p{
-    margin:10px;
-    padding:1em;
+
+.about p {
+    margin: 10px;
+    padding: 1em;
     margin-bottom: 20px;
     font-size: 1.1em;
     opacity: .7;
 }
+
 .btn-createcv{
-    font-size:1em;
     margin: 20px;
     padding: 10px;
     text-decoration: none;
@@ -125,30 +130,85 @@ div .logo {
     color: #fff;
 }
 
-.footer {
-    margin-top:20px;
-    width:100%;
-    background: rgb(0, 30, 85);
-    color:#fff;
+
+
+.information {
+    width: 100%;
+    
 }
-.footer-cont{
-    padding:1em;
-    display:flex;
+
+.information-cont {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.information-title {
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+.info-step {
+    display: inline;
+    border: solid;
+    padding: 10px;
+    margin: 1em;
+    border-radius: 100%;
+
+}
+
+.information-item {
+    width: 33.3%;
+}
+.aside-info{
+    width:100%;
+    text-align:center;
+    font-family: sans-serif;
+
+}
+.aside-info p{
+    padding-bottom:10px;
+    
+}
+.advices{
+    list-style: circle;
+    padding:10px;
+}
+
+
+.footer {
+    margin-top: 20px;
+    width: 100%;
+    background: rgb(0, 30, 85);
+    color: #fff;
+}
+
+.footer-cont {
+    padding: 1em;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.footer i{
+
+.footer i {
     font-size: 2em;
-    color:#fff;
+    color: #fff;
     text-decoration: none;
 
 }
-.footer-e{
+
+.footer-e {
     margin: 20px;
     padding-left: 1em;
 }
 
-.center{
+.center {
 
     text-align: center;
+}
+
+.separation {
+    margin: 1.2em;
+
 }
