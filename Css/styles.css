@@ -86,6 +86,27 @@ div .logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.footer {
+    width:100%;
+    background: rgb(63, 63, 63);
+    color:#fff;
+}
+.footer-cont{
+    padding:1em;
+    
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer i{
+    font-size: 2em;
+    color:#fff;
+    text-decoration: none;
+
+}
+.footer-e{
+    margin: 20px;
+    margin-left: 50px;
+}
 
 .center{
 

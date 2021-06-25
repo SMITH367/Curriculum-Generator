@@ -97,11 +97,19 @@ div section {
     display: grid;
     grid-template-columns: 40% 60%;
     max-height: 100%;
-    border: solid;
+    border: solid 4px #232a34 ;
+
+}
+.data{
+    border-right: 2px #232a34 solid;
 }
 
 .preview {
     width: 100%;
+    
+}
+.finalcv{
+    border: solid;
 }
 
 .title {
@@ -114,7 +122,6 @@ div section {
 
     width: 98%;
     height: 100%;
-    border: solid;
 
 }
 .name{
@@ -146,11 +153,40 @@ div section {
     margin: auto;
     padding: 1em;
 }
+.downloadCv{
+    margin:20px;
+    padding: 10px;
+    text-decoration: none;
+    border: solid 12px;
+    border-radius:10px;
+    background: rgb(0, 37, 117);
+    color: #fff;
+    cursor: pointer;
+
+}
 
 .footer {
-
-    margin-top: 2em;
+    width:100%;
+    background: rgb(63, 63, 63);
+    color:#fff;
 }
+.footer-cont{
+    padding:1em;
+    
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer i{
+    font-size: 2em;
+    color:#fff;
+    text-decoration: none;
+
+}
+.footer-e{
+    margin: 20px;
+    margin-left: 50px;
+}
+
 
 textarea {
     resize: none;

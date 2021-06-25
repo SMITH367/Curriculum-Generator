@@ -55,6 +55,7 @@
     }
     .data{
       width: 100%;
+      border-bottom: 5px solid;
       
     }
     .preview{
