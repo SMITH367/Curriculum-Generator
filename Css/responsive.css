@@ -60,7 +60,7 @@
       font-size: 1.3em;
     }
     .curriculum{
-       grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
       
     }
     .img-interview{
