@@ -7,7 +7,7 @@ profile.addEventListener("input",()=>{
     let contProfile = document.querySelector(".profile")
     let value = profile.value
     contProfile.innerHTML = ` <h3> 
-    <i class="fa fa-user-plus" aria-hidden="true"></i> Perfil </h3> <br> <p> ${value} <p> `
+    <i class="fa fa-address-card" aria-hidden="true"></i> Perfil </h3> <br> <p> ${value} <p> `
 
 })
 

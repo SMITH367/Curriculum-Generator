@@ -133,15 +133,15 @@ div section {
     width: 100%;
     height: 100%;
     padding: 10px;
-    
-
 }
 
 .data input {
-    border: solid 1px;
+    border:none;
     margin: 1em;
     padding: 10px;
+    background: rgba(46, 46, 51, 0.089);
 }
+
 
 .ocupation {
     width: 200px;
@@ -187,10 +187,17 @@ div section {
     margin-left: 50px;
 }
 
-
 textarea {
     resize: none;
     border:solid 1px;
+    border:none;
+    background: rgba(46, 46, 51, 0.089);
+    margin:7px;
+}
+
+::placeholder{
+    padding:1em;
+    font-size: 1.1em;
 }
 
 .center {

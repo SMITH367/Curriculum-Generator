@@ -4,6 +4,7 @@ const lastName = document.getElementById("lastName")
 const ocupation = document.getElementById("ocupation")
 const phone = document.getElementById("phone")
 const email = document.getElementById("email")
+const address = document.getElementById("address")
 const link = document.getElementById("link")
 const languages = document.getElementById("languages")
 const addLanguage = document.getElementById("addLanguage")
@@ -54,6 +55,16 @@ email.addEventListener("input", () => {
     if (value.length < 32 && value.length > 7) {
         contEmail.innerHTML = ` <p> 
         <i class="fas fa-mail-bulk "></i> ${value} <p> `
+    }
+})
+
+address.addEventListener("input",()=>{
+    let contAddress = document.querySelector(".address")
+    let value = address.value
+    if (value.length < 30 && value.length > 3){
+        contAddress.innerHTML = `<p> 
+        <i class="fa fa-home" aria-hidden="true"></i>
+        ${value} <p>` 
     }
 })
 
