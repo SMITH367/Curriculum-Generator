@@ -135,8 +135,6 @@ div .logo {
     display:block;
 }
 
-
-
 .information {
     margin-top: 1em;
   
@@ -165,10 +163,14 @@ div .logo {
     border-radius: 100%;
 
 }
+.hidden-res{
+    display:none;
+}
 
 .information-item {
     width: 33.3%;
 }
+
 aside {
     
     display:inline;

@@ -66,6 +66,18 @@
     .img-interview{
       display:none;
     }
+    .slider img{
+       display:none;
+    }
+    .hidden-res{
+       display:unset;
+    }
+    .responsive-img{
+      margin: auto;
+      display: flex;
+      text-align: center;
+    }
+
  
     .img-logo {
       width: 100%;
