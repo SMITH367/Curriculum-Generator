@@ -125,6 +125,7 @@ div .logo {
 }
 .btn-createcv{
     margin: 20px;
+    margin-top: 3em;
     padding: 10px;
     text-decoration: none;
     border: solid  rgb(0, 30, 85);
