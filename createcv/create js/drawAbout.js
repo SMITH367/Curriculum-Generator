@@ -58,13 +58,13 @@ email.addEventListener("input", () => {
     }
 })
 
-address.addEventListener("input",()=>{
+address.addEventListener("input", () => {
     let contAddress = document.querySelector(".address")
     let value = address.value
-    if (value.length < 30 && value.length > 3){
+    if (value.length < 30 && value.length > 3) {
         contAddress.innerHTML = `<p> 
         <i class="fa fa-home" aria-hidden="true"></i>
-        ${value} <p>` 
+        ${value} <p>`
     }
 })
 
@@ -85,10 +85,13 @@ addLanguage.addEventListener("click", (e) => {
     e.preventDefault()
     let contLanguage = document.querySelector(".languages")
     let value = languages.value
+    if (value.length < 20 && value.length > 1){
     let language = document.createElement("P")
     language.innerHTML = ` <p class="separation"> ${value} <p> `
     contLanguage.appendChild(language)
 
+
+    }
 })
 
 
@@ -97,7 +100,6 @@ addSkill.addEventListener("click", (e) => {
     e.preventDefault()
     let value = skill.value;
 
-
     if (value.length < 20 && value.length > 1) {
         let skilln = document.createElement("P")
         skilln.innerHTML = ` <p class="separation"> ${value} </p>`
@@ -105,9 +107,3 @@ addSkill.addEventListener("click", (e) => {
         contSkill.appendChild(skilln)
     }
 })
-
-window.addEventListener("keypress", (e) => {
-    if (e.keyCode == 13) {
-        e.preventDefault();
-    }
-}, false);
