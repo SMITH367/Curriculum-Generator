@@ -13,14 +13,14 @@ h3{
 .preview {
     display: grid;
     grid-template-columns: 30% 68%;
-    padding-top:1em;
 }
 
 .about {
     height: 100%;
     margin-right:10px;
     word-wrap: break-word;
-    background: rgb(197, 197, 197);
+    padding:1em;
+    
 }
 
 .about div {

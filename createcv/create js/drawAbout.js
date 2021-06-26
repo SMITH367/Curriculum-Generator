@@ -11,7 +11,6 @@ const addLanguage = document.getElementById("addLanguage")
 const skill = document.getElementById("skill")
 const addSkill = document.getElementById("addSkill")
 
-
 nameof.addEventListener("input", () => {
 
     let contName = document.querySelector(".first")
@@ -98,4 +97,27 @@ addSkill.addEventListener("click", (e) => {
         let contSkill = document.querySelector(".skill")
         contSkill.appendChild(skilln)
     }
+})
+
+
+//Drawin Background color of the about zone
+
+const color1 = document.getElementById("bgc-1")
+const color2 = document.getElementById("bgc-2")
+const color3 = document.getElementById("bgc-3")
+const aboutZone = document.querySelector(".about")
+console.log(aboutZone)
+
+color1.addEventListener("click",()=>{
+    aboutZone.style.backgroundColor = "#fff"
+    aboutZone.style.color="#000"
+})
+
+color2.addEventListener("click",()=>{
+    aboutZone.style.backgroundColor = "rgb(0, 102, 255)"
+    aboutZone.style.color="#fff"
+})
+color3.addEventListener("click",()=>{
+    aboutZone.style.backgroundColor = "rgb(199, 199, 199)"
+    aboutZone.style.color="#000"
 })
