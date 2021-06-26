@@ -19,7 +19,9 @@ h3{
 .about {
     height: 100%;
     padding: 10px;
+    margin-right:10px;
     word-wrap: break-word;
+    background: rgb(197, 197, 197);
 }
 
 .about div {

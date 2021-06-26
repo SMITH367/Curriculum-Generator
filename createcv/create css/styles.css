@@ -97,7 +97,8 @@ div section {
     display: grid;
     grid-template-columns: 40% 60%;
     max-height: 100%;
-    border: solid 4px #232a34 ;
+    border: solid .3px #232a34 ;
+    border-radius:20px;
 
 }
 .data{
@@ -138,7 +139,7 @@ div section {
 .data input {
     border:none;
     margin: 1em;
-    padding: 10px;
+    padding: 15px;
     background: rgba(46, 46, 51, 0.089);
 }
 
