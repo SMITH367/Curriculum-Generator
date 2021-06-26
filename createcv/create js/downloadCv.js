@@ -1,7 +1,5 @@
 const downloadCv = document.querySelector(".downloadCv");
 
-
-
 downloadCv.addEventListener("click",(e)=>{
     e.preventDefault()
     const conf = confirm("¿Desea guardar el curriculum?")

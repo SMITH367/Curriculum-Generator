@@ -18,7 +18,7 @@ class drawAbout {
         <i class="fa fa-address-card" aria-hidden="true"></i> Experiencia</h3> <br> <p> ${value} <p> `
     }
     drawEducation(){
-        let contEducation = document.querySelector(".education")
+    let contEducation = document.querySelector(".education")
     let value = education.value
     contEducation.innerHTML = ` <h3>  <i class="fa fa-university" aria-hidden="true"></i> Educacion </h3> <br> <p> ${value} <p>`
     }

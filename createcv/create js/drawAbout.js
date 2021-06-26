@@ -12,7 +12,6 @@ const skill = document.getElementById("skill")
 const addSkill = document.getElementById("addSkill")
 
 
-
 nameof.addEventListener("input", () => {
 
     let contName = document.querySelector(".first")
@@ -25,8 +24,6 @@ nameof.addEventListener("input", () => {
 
 })
 
-
-
 ocupation.addEventListener("input", () => {
 
     let contOcupation = document.querySelector(".ocupation")
@@ -38,7 +35,6 @@ ocupation.addEventListener("input", () => {
     }
 
 })
-
 
 phone.addEventListener("input", () => {
 
@@ -75,7 +71,6 @@ link.addEventListener("input", () => {
     if (value.length < 25 && value.length > 3) {
         contLink.innerHTML = ` <p> 
         <i class="fa fa-link" aria-hidden="true"></i> ${value} <p> `
-
     }
 })
 
@@ -85,18 +80,15 @@ addLanguage.addEventListener("click", (e) => {
     e.preventDefault()
     let contLanguage = document.querySelector(".languages")
     let value = languages.value
-    if (value.length < 20 && value.length > 1){
-    let language = document.createElement("P")
-    language.innerHTML = ` <p class="separation"> ${value} <p> `
-    contLanguage.appendChild(language)
 
-
+    if (value.length < 20 && value.length > 1) {
+        let language = document.createElement("P")
+        language.innerHTML = ` <p class="separation"> ${value} <p> `
+        contLanguage.appendChild(language)
     }
 })
 
-
 addSkill.addEventListener("click", (e) => {
-
     e.preventDefault()
     let value = skill.value;
 
