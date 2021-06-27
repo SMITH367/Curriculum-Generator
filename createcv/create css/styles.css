@@ -133,8 +133,6 @@ div section {
    
 }
 
-
-
 .title {
 
     margin-top: 90px;
@@ -216,6 +214,7 @@ textarea {
     border:none;
     background: rgba(46, 46, 51, 0.089);
     margin:7px;
+    padding:4px;
 }
 
 ::placeholder{
